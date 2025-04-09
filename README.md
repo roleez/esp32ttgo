@@ -60,6 +60,12 @@ A webes felület lehetővé teszi a termosztát konfigurálását és monitoroz�
 2. Adja meg a dátumot és időt az `ééééhhnnóópp` formátumban.
 3. Kattintson a "Beállít" gombra a mentéshez.
 
+### Saját Access Point üzemmód
+
+A termosztát saját WiFi Access Point módban is elérhető, IP címe: 192.168.99.9. Ebben az üzemmódban WiFi kliensként nem szükséges csatlakozni, hiszen az eszköz önállóan szolgáltatja a weblapot és az ElegantOTA (firmware frissítés) felületet a következő URL-eken:
+- Weblap: http://192.168.99.9
+- OTA frissítés: http://192.168.99.9/iwannaupdate majd utána http://192.168.99.9/update
+
 ---
 
 ## TFT kijelző
